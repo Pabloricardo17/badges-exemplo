@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges</title>
+</head>
+<style>
+    :root {
+        --cor--cinza: #a9a587;
+        --cor--icone: #730071;
+        --cor--badge--casa: pink;
+        --cor--badge--ferias: orange;
+
+    }
+
+    .navegacao {
+        border: 1px solid black;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 2px;
+        margin: 0 auto;
+        text-align: center;
+        width: 800px;
+        text-align: left;
+        background-color: white;
+        color: black;
+        background-color: var(--cor--cinza);
+    }
+
+    .trabalho {
+        border: 25px;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        margin: 1px;
+        height: 10px;
+        padding: 8px;
+        width: 70px;
+
+    }
+
+    .badge.casa {
+        border: 25px;
+        border-radius: 15px;
+        background-color: var(--cor--badge--casa);
+        color: black;
+        margin: 1px;
+        height: 10px;
+        padding: 8px;
+        width: 70px;
+        font-size: 15px;
+
+    }
+
+    svg {
+        width: 20px;
+        fill: var(--cor--icone);
+    }
+
+    .badge.ferias {
+        border: 25px;
+        border-radius: 15px;
+        background-color: var(--cor--badge--ferias);
+        color: white;
+        margin: 1px;
+        height: 10px;
+        padding: 8px;
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .badge {
+        display: inline;
+        border-radius: 15px;
+        border: 15px;
+        background-color: black;
+
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    .badge.trabalho {
+        border: 25px;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        margin: 1px;
+        height: 10px;
+        padding: 8px;
+        width: 70px;
+        font-size: 15px;
+
+    }
+</style>
+
+<body>
+    <div class="navegacao">
+
+
+        <div>
+
+
+
+            <div class="hastag"> <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M181.3 32.4c17.4 2.9 29.2 19.4 26.3 36.8L197.8 128l95.1 0 11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3s29.2 19.4 26.3 36.8L357.8 128l58.2 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-68.9 0L325.8 320l58.2 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-68.9 0-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8l9.8-58.7-95.1 0-11.5 69.3c-2.9 17.4-19.4 29.2-36.8 26.3s-29.2-19.4-26.3-36.8L90.2 384 32 384c-17.7 0-32-14.3-32-32s14.3-32 32-32l68.9 0 21.3-128L64 192c-17.7 0-32-14.3-32-32s14.3-32 32-32l68.9 0 11.5-69.3c2.9-17.4 19.4-29.2 36.8-26.3zM187.1 192L165.8 320l95.1 0 21.3-128-95.1 0z" />
+                </svg></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia earum delectus harum rerum
+                distinctio eveniet corporis omnis consequuntur sapiente minus incidunt dicta deserunt soluta ex, eum
+                assumenda accusantium dolorum!</p>
+
+
+
+            <div>
+                <h1 class="badge trabalho">Trabalho</h1>
+                <h1 class="badge casa">Casa</h1>
+                <h1 class="badge ferias">Ferias</h1>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
